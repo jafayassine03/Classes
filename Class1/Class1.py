@@ -1,8 +1,8 @@
- num = int(input("write a number: "))
- if num % 2:
-     print("your number is odd")
- else:
-     print("your number is even")
+num = int(input("write a number: "))
+if num % 2:
+    print("your number is odd")
+else:
+    print("your number is even")
     
 # --------------------------------------------
 
@@ -22,7 +22,7 @@
 #     if result > 100:
 #         print("i think your number is up to 100 :), you can repeat again...")    
     
-# #--------------------------------------------   
+# #--------------------------------------------    
 
 # import random
 # print("you have to guess the number between 1 to 100 :) ")
@@ -41,5 +41,7 @@
 #         break
 # else:
 #     print("try again...")
-    
-    
+
+import math
+num2 = int(input("write another number for factorial: "))
+print("Factorial:", math.factorial(num2))
